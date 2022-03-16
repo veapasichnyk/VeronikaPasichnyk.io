@@ -1,0 +1,268 @@
+/* drop default settings */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+body{
+    background-color: #f5f7fa;
+    padding: 40px;
+    font-family: Montserrat;
+    /* overflow-x: auto; */
+}
+
+.wrapper{
+    background-color: white;
+    display: flex;
+    flex: row;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+}
+
+.side-bar{
+    background-color: #bd4006;
+    width: 500px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.photo{
+    width: 200px;
+    padding-left: 50px;
+}
+
+.about-me-container{
+    padding-top: 110px;
+    padding-bottom: 110px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.contact-container{
+    margin-left: 40px;
+    margin-top: 60px;
+}
+
+.contact-title{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #ffffff;
+    margin-bottom: 20px;
+
+}
+
+.contact-links{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #f3f4f5;
+}
+
+.contact-links-type{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #ffffff;
+}
+
+.tech-skills-title{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.tech-skills-container{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 55px;
+}
+
+.tech-skills-item>li{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #f0f1f7;
+    margin-left: 15px;
+}
+
+.tech-skills-text{
+    color: #f0f1f3;
+}
+
+.soft-skills-container{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 55px;
+}
+
+.soft-skills-title{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.soft-skills-item>li{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #f6f6f8;
+    margin-left: 15px;
+}
+
+.soft-skills-text{
+    color: #ebecee;
+}
+
+
+/* about me container */
+
+.introduction-info{
+    margin-bottom: 65px;
+}
+
+.position-title{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 23px;
+}
+
+.name-title{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 89px;
+}
+
+
+
+.description{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 65px;
+/*     margin-right: 330px; */
+}
+
+.about-me-title{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+.project-list-container>li{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-left: 15px;  
+}
+
+.project-links{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #212122;
+}
+
+.dots{
+    color: #212122;
+    font-weight: 100;
+
+}
+
+
+.project-technics{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #212122;
+}
+
+.project-container{
+    margin-bottom: 55px;
+}
+
+
+.position-title{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.company-name{
+    color: #030c81;
+}
+
+.work-period{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #212122;
+}
+
+.slesh{
+    color: black;
+}
+
+.job-duties{
+    margin-top: 14px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+}
+
+.job-duties>li{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #212122;
+}
+
+
+
+.work-exp-container{
+    margin-bottom: 55px;
+}
+
+.faculty{
+    color: #000000;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 14px;
+}
+
+.courses-container{
+    margin-bottom: 55px;
+    margin-top: 30px;
+    
+}
+
+.course>li{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #212122;
+    margin-left: 15px;
+}
